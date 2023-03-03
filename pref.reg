@@ -42,3 +42,22 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\TabletTip\1.7]
 "EnableSpellchecking"=dword:00000000
+
+; Show text suggestions as I type on the software keyboard
+; OFF
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\TabletTip\1.7]
+"EnableTextPrediction"=dword:00000000
+
+; Add a space after I choose a text suggestion
+; OFF
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\TabletTip\1.7]
+"EnablePredictionSpaceInsertion"=dword:00000000
+
+; Add a full stop after 1 double-tap the spacebar
+; OFF
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\TabletTip\1.7]
+"EnableDoubleTapSpace"=dword:00000000
+
