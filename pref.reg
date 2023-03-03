@@ -61,3 +61,29 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\TabletTip\1.7]
 "EnableDoubleTapSpace"=dword:00000000
 
+; Personalisation - Start
+
+; Show suggestions occasionally in Start
+; OFF
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SubscribedContent-338388Enabled"=dword:00000000
+
+; Privacy - General
+
+; Allow websites to provide locally relevant content by accessing my language list
+; OFF
+
+[HKEY_CURRENT_USER\Control Panel\International\User Profile]
+"HttpAcceptLanguageOptOut"=dword:00000001
+
+; Allow Windows to track app launches to improve Start and search
+; OFF
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Start_TrackProgs"=dword:00000000
+
+; Delete the follow keys to remove history
+; HKCU\SOFTWARE\Microsoft\Internet Explorer\TypedURLs
+; HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths
+; HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\RunMRU
