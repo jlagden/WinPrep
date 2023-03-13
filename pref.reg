@@ -110,3 +110,15 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Microsoft\Personalization\Settings]
 "AcceptedPrivacyPolicy"=dword:00000000
 
+; Privacy -> Diagnostics & feedback
+; Feedback Frequency: Never
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Siuf\Rules]
+"NumberOfSIUFInPeriod"=dword:00000000
+"PeriodInNanoSeconds"=-
+
+; Privacy -> Activity History
+; OFF
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"PublishUserActivities"=dword:00000000
